@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.nft.mvpdemo.view.UserActivity">
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/edit_name"
+    android:hint="@string/hint_name"
+    android:textStyle="italic"
+    android:textColor="@color/colorPrimaryDark"
+    android:textSize="20sp"
+    android:marqueeRepeatLimit="marquee_forever"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_pass_word"
+        android:hint="@string/pass_word"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:marqueeRepeatLimit="marquee_forever"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_save"
+        android:text="@string/bt_save"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/bt_background"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_load"
+        android:text="@string/bt_load"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/bt_background"/>
+
+</LinearLayout>

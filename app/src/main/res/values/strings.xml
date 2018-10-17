@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MVPDemo</string>
+    <string name="hint_name">请输入用户名</string>
+    <string name="pass_word">请输入密码</string>
+    <string name="bt_load">登录</string>
+    <string name="bt_save">保存</string>
+</resources>
